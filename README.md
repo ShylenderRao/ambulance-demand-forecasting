@@ -51,19 +51,23 @@ variation with an average prediction error of 3.32 calls per hour.
 
 ## Project Structure
 
-\`\`\`
-Shylendar_Ambulence_Call_Volume/
-├── 1_Preprocessing_File.ipynb     Data cleaning and feature engineering
-├── 2_Model-Training.ipynb         Model training and evaluation
-├── 3_inference.ipynb              Inference and forecasting examples
-├── SplittedData/                  Train/test split files
-└── models/                        Saved trained models (.pkl)
+### Shylendar_Ambulence_Call_Volume/
 
-Shylendar_Ambulence_Call_Volume_FE/
-├── app.py                         Flask backend
-├── templates/index.html           Web interface
-└── models/                        Models used by the web app
-\`\`\`
+| File | Description |
+|------|-------------|
+| 1_Preprocessing_File.ipynb | Data cleaning and feature engineering |
+| 2_Model-Training.ipynb | Model training and evaluation |
+| 3_inference.ipynb | Inference and forecasting examples |
+| SplittedData/ | Train/test split files |
+| models/ | Saved trained models (.pkl) |
+
+### Shylendar_Ambulence_Call_Volume_FE/
+
+| File | Description |
+|------|-------------|
+| app.py | Flask backend |
+| templates/index.html | Web interface |
+| models/ | Models used by the web app |
 ## Web Application
 
 The trained XGBoost model is deployed via a Flask web app that allows users to select 
