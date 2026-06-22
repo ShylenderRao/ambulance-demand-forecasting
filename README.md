@@ -1,5 +1,3 @@
-# ambulance-demand-forecasting
-MSc dissertation project — ML-based hourly ambulance demand forecasting for Dublin Fire Brigade
 # Ambulance Demand Forecasting — Dublin Fire Brigade
 
 MSc Computing Science dissertation project at Griffith College Dublin. A machine 
