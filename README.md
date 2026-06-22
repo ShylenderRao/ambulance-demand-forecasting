@@ -65,6 +65,8 @@ Shylendar_Ambulence_Call_Volume_FE/
 The trained XGBoost model is deployed via a Flask web app that allows users to select 
 a fire station, date, and hour, and receive a real-time predicted call volume along 
 with an operational resource recommendation.
+<img width="1907" height="535" alt="image" src="https://github.com/user-attachments/assets/f6852ffe-dabe-4398-b21c-0dfab72d55ef" />
+
 
 ### Running locally
 
