@@ -50,16 +50,20 @@ incident data — without relying on external data sources like weather or traff
 variation with an average prediction error of 3.32 calls per hour.
 
 ## Project Structure
+
+\`\`\`
 Shylendar_Ambulence_Call_Volume/
-├── 1_Preprocessing_File.ipynb     # Data cleaning & feature engineering
-├── 2_Model-Training.ipynb         # Model training & evaluation
-├── 3_inference.ipynb              # Inference & forecasting examples
-├── SplittedData/                  # Train/test split files
-└── models/                        # Saved trained models (.pkl)
+├── 1_Preprocessing_File.ipynb     Data cleaning and feature engineering
+├── 2_Model-Training.ipynb         Model training and evaluation
+├── 3_inference.ipynb              Inference and forecasting examples
+├── SplittedData/                  Train/test split files
+└── models/                        Saved trained models (.pkl)
+
 Shylendar_Ambulence_Call_Volume_FE/
-├── app.py                         # Flask backend
-├── templates/index.html           # Web interface
-└── models/                        # Models used by the web app
+├── app.py                         Flask backend
+├── templates/index.html           Web interface
+└── models/                        Models used by the web app
+\`\`\`
 ## Web Application
 
 The trained XGBoost model is deployed via a Flask web app that allows users to select 
@@ -89,7 +93,6 @@ Then open `http://127.0.0.1:5000` in your browser.
 
 **Shylender Rao Manpuri**  
 MSc Computing Science, Griffith College Dublin  
-[LinkedIn](https://www.linkedin.com/in/shylender-rao-manpuri-275341307/) · [GitHub](https://github.com/ShylenderRao)
 
 ## Licence
 
